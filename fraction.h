@@ -4,8 +4,8 @@
  * Name: Fraction.h
  *
  * This class was designed to allow programmers to easily
- * implement fractions into their calculations.
- *
+ * implement fractions into their programs.
+ * 
  */
 
 class Fraction {
