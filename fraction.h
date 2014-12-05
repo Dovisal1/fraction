@@ -19,8 +19,8 @@ class Fraction {
     
 	void setValues(int, int);
     
-    int getNum(void);
-    int getDen(void);
+	int getNum(void);
+	int getDen(void);
     
 	void print(void);
     
@@ -36,5 +36,5 @@ class Fraction {
 	Fraction operator* (int);
     
 	Fraction operator/ (const Fraction&);
-    Fraction operator/ (int);
+	Fraction operator/ (int);
 };

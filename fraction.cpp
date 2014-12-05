@@ -2,6 +2,10 @@
  * Implementation of the fraction class
  */
 
+#ifndef FRACTION_H
+#define FRACTION_H
+#include "fraction.h"
+#endif
 
 using namespace std;
 
