@@ -11,7 +11,7 @@
 class Fraction {
 	int num, den;
     
-    void reduce(void);
+    	void reduce(void);
     
     public:
 	Fraction(void);
