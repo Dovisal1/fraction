@@ -12,12 +12,12 @@ using namespace std;
 //Default constructor. No initilization.
 Fraction::Fraction(void) { }
 
-//The fraction will be intialized with the first parameter as the numerator
-//and the second parameter as the denominator.
-//The fraction will automatically be reduced
-Fraction::Fraction(int u, int v){
-    num = u;
-    den = v;
+/*
+ * The fraction will be intialized with the first parameter as the numerator
+ * and the second parameter as the denominator
+ * The fraction will automatically be reduced
+ */
+Fraction::Fraction (int u, int v) : num(u), den(v) {
     this -> reduce();
 }
 
