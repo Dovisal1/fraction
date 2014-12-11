@@ -93,6 +93,10 @@ void Fraction::print(void) {
         cout << num * -1;
 }
 
+double Fraction::evaluate() {
+    return double(num) / den;
+}
+
 //Redefining the addition operator for 2 fraction objects
 Fraction Fraction::operator+ (const Fraction& param) {
     int v = den * param.den;
