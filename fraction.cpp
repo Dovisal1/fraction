@@ -28,7 +28,7 @@ void Fraction::setValues(int u, int v) {
 }
 
 //Reduces the fraction into its simplest form.
-//First it finds the greatest common factor and then devides both
+//First it finds the greatest common factor and then divides both
 //the numerator and denominator by that value.
 void Fraction::reduce(void) {
     int u = num, v = den, temp;
